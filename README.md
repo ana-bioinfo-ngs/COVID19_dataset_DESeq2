@@ -19,3 +19,5 @@ Workflow:
 7. Seperate the upregulated and downregulated genes from the DE gene data by setting cutoff for logfc and padj values.
 
 Python code for all the steps is [HERE](https://github.com/ana-bioinfo-ngs/COVID19_dataset_DESeq2/blob/main/COVID19_DESeq2_%26_Volcano_Plot.ipynb)
+
+Further steps involve, finding COVID19 associated host genes from various gene databases and intersecting them with our upregulated and downregulated gene list to identify key genes associated with COVID19 in our samples. Functional enrichment analysis will reveal further information on biological processes and pathways associated with these genes.
